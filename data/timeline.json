@@ -1,6 +1,6 @@
 [
   {
-    "type": "Experience",
+    "type": "experience",
     "typeLabel": "Expérience professionnelle",
     "date": "Déc. 2025 — Présent",
     "title": "Data Analyst / Business Analyst",
@@ -14,7 +14,7 @@
   {
     "type": "certification",
     "typeLabel": "Certification",
-    "date": "Avril 2024",
+    "date": "Avril 2025",
     "title": "CS50P — Introduction to Programming with Python",
     "company": "Harvard University",
     "description": "Fondamentaux avancés de Python appliqués à la structuration de scripts et pipelines de données."
@@ -28,7 +28,7 @@
     "description": "Nettoyage de plus de 10 000 lignes, EDA, construction de KPI et dashboard interactif."
   },
   {
-    "type": "Experience",
+    "type": "experience",
     "typeLabel": "Expérience professionnelle",
     "date": "Février 2025 — Juin 2025",
     "title": "Stagiaire Analyste de données",

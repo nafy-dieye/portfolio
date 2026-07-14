@@ -138,7 +138,7 @@ function bindTimelineFilters(items) {
     const button = createElement('button', 'filter-btn');
     button.type = 'button';
     button.dataset.tlf = filter;
-    button.textContent = index === 0 ? 'Tout' : filter === 'stage' ? 'Stages' : filter === 'formation' ? 'Formation' : filter === 'projet' ? 'Projets' : 'Certifications';
+    button.textContent = index === 0 ? 'Tout' : filter === 'experience' ? 'Experiences' : filter === 'formation' ? 'Formation' : filter === 'projet' ? 'Projets' : 'Certifications';
     if (index === 0) button.classList.add('active');
     filterContainer.appendChild(button);
   });
