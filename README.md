@@ -1,27 +1,58 @@
-# Portfolio modulaire
+# 🌐 Personal Portfolio
 
-Ce portfolio a été refactoré en une architecture HTML/CSS/JS modulaire, sans modifier l’esprit visuel original.
+Welcome to my personal portfolio!
 
-## Structure
+This website showcases my journey as a **Data Science & Artificial Intelligence student**, highlighting my projects, technical skills, certifications, and professional experiences.
 
-- index.html : point d’entrée HTML de la page
-- css/ : styles séparés par responsabilité
-- js/ : modules ES6 pour la logique métier et l’interactivité
-- data/ : fichiers JSON utilisés pour alimenter les sections dynamiques
-- assets/ : images, logos et supports visuels
+## 🚀 About Me
 
-## Fonctionnement
+I am currently pursuing a Master's degree in **Big Data & Artificial Intelligence** and I am passionate about:
 
-- Les projets et compétences sont chargés depuis des fichiers JSON.
-- Les sections interactives (dashboard, galerie, contact, GitHub) sont initialisées via des modules ES6.
-- Les styles et animations sont séparés pour faciliter la maintenance.
+- 📊 Data Analysis
+- 🤖 Machine Learning
+- 🧠 Artificial Intelligence
+- 🌐 Web Development
+- 📈 Data Visualization
 
-## Personnalisation
+My goal is to build intelligent solutions that transform data into actionable insights.
 
-1. Modifiez les fichiers JSON dans data/ pour mettre à jour les contenus.
-2. Ajoutez vos images dans assets/.
-3. Ajustez les styles dans css/ si nécessaire.
+---
 
-## Déploiement
+## 🛠️ Technologies
 
-Le site peut être déployé sur GitHub Pages, Netlify ou tout hébergement statique.
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- Git & GitHub
+
+---
+
+## 📂 Portfolio Sections
+
+- Home
+- About Me
+- Skills
+- Projects
+- Certifications
+- Contact
+
+---
+
+## 🌍 Live Demo
+
+👉 https://nafy-dieye.github.io/portfolio/
+
+---
+
+## 📫 Contact
+
+- LinkedIn
+- GitHub
+- Email
+
+Feel free to connect with me or explore my projects!
+
+---
+
+⭐ If you like my portfolio, don't hesitate to leave a star on this repository!
