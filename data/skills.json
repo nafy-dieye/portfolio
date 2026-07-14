@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Business Intelligence",
+    "items": [
+      { "name": "Power BI", "level": 92 },
+      { "name": "Excel", "level": 90 },
+      { "name": "Power Query", "level": 85 },
+      { "name": "DAX", "level": 78 }
+    ]
+  },
+  {
+    "title": "Langages & ML",
+    "items": [
+      { "name": "Python", "level": 88 },
+      { "name": "SQL", "level": 84 },
+      { "name": "VBA", "level": 78 },
+      { "name": "Machine Learning", "level": 80 },
+      { "name": "R", "level": 58 }
+    ]
+  },
+  {
+    "title": "Data & outils",
+    "items": [
+      { "name": "Statistiques / EDA", "level": 88 },
+      { "name": "Visualisation", "level": 84 },
+      { "name": "Bases de données", "level": 76 },
+      { "name": "Git", "level": 68 }
+    ]
+  }
+]

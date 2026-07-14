@@ -1,0 +1,50 @@
+[
+  {
+    "platform": "Harvard / edX",
+    "name": "CS50P — Python",
+    "date": "Avril 2025",
+    "comingSoon": false
+  },
+  {
+    "platform": "Cisco",
+    "name": "CCNA 1–2",
+    "date": "Sept. 2024",
+    "comingSoon": false
+  },
+  {
+    "platform": "Cisco",
+    "name": "IT Essentials V7",
+    "date": "Fév. 2023",
+    "comingSoon": false
+  },
+  {
+    "platform": "Microsoft",
+    "name": "PL-300 Power BI",
+    "date": "Bientôt",
+    "comingSoon": true
+  },
+  {
+    "platform": "Google",
+    "name": "Data Analytics",
+    "date": "Bientôt",
+    "comingSoon": true
+  },
+  {
+    "platform": "IBM",
+    "name": "Data Science",
+    "date": "Bientôt",
+    "comingSoon": true
+  },
+  {
+    "platform": "DataCamp",
+    "name": "SQL / Python Track",
+    "date": "Bientôt",
+    "comingSoon": true
+  },
+  {
+    "platform": "LinkedIn Learning",
+    "name": "Power BI Avancé",
+    "date": "Bientôt",
+    "comingSoon": true
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "slug": "eau",
+    "title": "Eau Potable Dans Le Monde",
+    "stack": "Projet personnel · Power BI + Machine Learning",
+    "repo": "https://github.com/nafy-dieye/Eau_Potable_Dans_Le_Monde",
+    "problem": "De nombreuses régions du monde restent privées d'accès à l'eau potable, avec un impact direct sur la mortalité. L'objectif était de rendre ce phénomène lisible et d'anticiper la potabilité d'une source à partir de ses caractéristiques physico-chimiques.",
+    "data": "Jeux de données croisés issus d'organismes internationaux (FAO, OMS) couvrant l'accès à l'eau, l'assainissement et les indicateurs de mortalité liés par pays et par période.",
+    "cleaning": [
+      "Harmonisation des noms de pays entre les sources",
+      "Traitement des valeurs manquantes et aberrantes",
+      "Construction d'un modèle en étoile pour le reporting"
+    ],
+    "analysis": [
+      "Analyse exploratoire des corrélations accès à l'eau / mortalité",
+      "Segmentation des pays par niveau de risque",
+      "Classification supervisée pour prédire la potabilité"
+    ],
+    "visualization": "Dashboard Power BI avec cartes choroplèthes, tendances temporelles et fiches pays, pensé pour une lecture rapide par des décideurs non techniques.",
+    "conclusion": "Prioriser les investissements d'assainissement dans les zones où le modèle prédit une faible potabilité couplée à une mortalité élevée."
+  },
+  {
+    "slug": "fifa",
+    "title": "Fifa World Cup 2026",
+    "stack": "Projet personnel · Machine Learning + Django",
+    "repo": "https://github.com/nafy-dieye/Fifa_WorldCup_2026",
+    "problem": "Passer d'un pipeline de Machine Learning limité à un notebook Jupyter à un véritable outil web utilisable pour prédire l'issue des matchs de la Coupe du Monde 2026.",
+    "data": "Historique de résultats internationaux et statistiques d'équipes utilisés pour entraîner un modèle de classification RandomForest.",
+    "cleaning": [
+      "Portage du pipeline notebook vers une architecture Django",
+      "Structuration de la fonction cœur predict_match",
+      "Débogage d'une erreur de portée liée à un bloc de code dupliqué"
+    ],
+    "analysis": [
+      "Entraînement et validation d'un modèle RandomForest",
+      "Chargement des modèles pré-entraînés au démarrage de l'application",
+      "Prédictions instantanées via interface web"
+    ],
+    "visualization": "Interface web et API JSON permettant de sélectionner deux équipes et d'obtenir une prédiction de résultat instantanée.",
+    "conclusion": "Le projet démontre la capacité à faire le pont entre Data Science et développement web pour déployer des modèles en production."
+  },
+  {
+    "slug": "faim",
+    "title": "Le Monde Faim",
+    "stack": "Projet personnel · Python / Data Visualization",
+    "repo": "https://github.com/nafy-dieye/Le_Monde_Faim",
+    "problem": "Comprendre l'ampleur et la répartition géographique de la sous-nutrition dans le monde à partir de données ouvertes.",
+    "data": "Statistiques internationales sur l'alimentation et la sous-nutrition, structurées par pays et par année.",
+    "cleaning": [
+      "Normalisation des unités et des échelles temporelles",
+      "Traitement des données manquantes par pays"
+    ],
+    "analysis": [
+      "Exploration statistique avec Pandas",
+      "Dégagement des tendances régionales et évolutions temporelles"
+    ],
+    "visualization": "Graphiques comparatifs par zone géographique, réalisés pour rendre les enjeux de sous-nutrition accessibles à un public non expert.",
+    "conclusion": "Le projet met en valeur la capacité à raconter une histoire avec la donnée, avec un angle fort sur le data storytelling."
+  },
+  {
+    "slug": "credit",
+    "title": "Analyse des Demandes de Crédit",
+    "stack": "Projet personnel · Analyse statistique",
+    "repo": "https://github.com/nafy-dieye",
+    "problem": "Identifier les facteurs qui influencent le plus l'acceptation ou le refus d'une demande de crédit.",
+    "data": "Jeu de données de dossiers de crédit incluant profil du demandeur, historique et statut de la demande.",
+    "cleaning": [
+      "Traitement des valeurs manquantes",
+      "Transformation des variables catégorielles",
+      "Vérification de la cohérence des montants"
+    ],
+    "analysis": [
+      "Analyse exploratoire et tests statistiques",
+      "Mesure de l'association entre variables et décision finale"
+    ],
+    "visualization": "Graphiques comparatifs par segment de demandeurs pour rendre les résultats actionnables pour un comité de crédit.",
+    "conclusion": "Recommandation de renforcer la pondération de certains critères objectifs dans la grille de décision."
+  },
+  {
+    "slug": "supply",
+    "title": "Sunu Supply",
+    "stack": "Projet personnel · React / TypeScript / BI",
+    "repo": "https://github.com/nafy-dieye/Sunu_Supply",
+    "problem": "Centraliser des données logistiques complexes dans un tableau de bord interactif afin de faciliter le pilotage de la Supply Chain.",
+    "data": "Données relatives aux ventes, aux stocks, aux fournisseurs et aux livraisons utilisées pour produire des indicateurs décisionnels.",
+    "cleaning": [
+      "Interface développée avec React et TypeScript",
+      "Architecture modulaire et composants réutilisables"
+    ],
+    "analysis": [
+      "Création de KPI pour évaluer les performances de la chaîne d'approvisionnement",
+      "Identification rapide des points d'amélioration"
+    ],
+    "visualization": "Dashboard interactif présentant graphiques, indicateurs clés et tableaux de suivi pour améliorer la prise de décision.",
+    "conclusion": "Le projet démontre la capacité à concevoir une interface BI moderne, transformer des données métiers en indicateurs exploitables et développer un tableau de bord destiné aux décideurs."
+  },
+  {
+    "slug": "optimization",
+    "title": "Optimisation Simulation Algo",
+    "stack": "Projet personnel · Python / Optimisation / Simulation",
+    "repo": "https://github.com/nafy-dieye/Optimisation_Similation_Algo",
+    "problem": "Étudier différents scénarios afin d'identifier les solutions les plus performantes dans un contexte d'optimisation et de simulation.",
+    "data": "Données simulées représentant différents paramètres d'un environnement complexe afin de comparer plusieurs stratégies.",
+    "cleaning": [
+      "Développement des algorithmes en Python",
+      "Implémentation de scénarios de simulation"
+    ],
+    "analysis": [
+      "Évaluation des performances de plusieurs approches d'optimisation",
+      "Comparaison des résultats obtenus selon différents critères"
+    ],
+    "visualization": "Analyse comparative permettant d'identifier les solutions les plus adaptées en fonction des contraintes du problème étudié.",
+    "conclusion": "Ce projet met en avant des compétences en algorithmique, modélisation, simulation et développement Python appliqués à des problématiques d'optimisation."
+  }
+]

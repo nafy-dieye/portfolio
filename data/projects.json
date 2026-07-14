@@ -1,0 +1,115 @@
+[
+  {
+    "id": "eau",
+    "title": "Eau Potable Dans Le Monde",
+    "category": "Power BI",
+    "filters": ["Power BI", "ML"],
+    "description": "Dashboard Power BI analysant l'accès à l'eau potable et son impact sur la mortalité mondiale : nettoyage FAO/OMS, modélisation en étoile et prédiction de potabilité par Machine Learning.",
+    "tags": ["Power BI", "EDA", "Classification"],
+    "kpis": [
+      { "value": "190+", "label": "pays couverts" },
+      { "value": "3", "label": "sources fusionnées" },
+      { "value": "ML", "label": "modèle prédictif" }
+    ],
+    "link": "https://github.com/nafy-dieye/Eau_Potable_Dans_Le_Monde",
+    "caseStudy": "eau"
+  },
+  {
+    "id": "faim",
+    "title": "Le Monde Faim",
+    "category": "Python",
+    "filters": ["Python"],
+    "description": "Analyse de données sur les enjeux mondiaux de l'alimentation, avec un focus sur la sous-nutrition — exploration et visualisation de données internationales.",
+    "tags": ["Python", "Pandas", "Data Viz"],
+    "kpis": [
+      { "value": "FAO", "label": "source de données" },
+      { "value": "EDA", "label": "exploration" },
+      { "value": "10+", "label": "visualisations" }
+    ],
+    "link": "https://github.com/nafy-dieye/Le_Monde_Faim",
+    "caseStudy": "faim"
+  },
+  {
+    "id": "fifa",
+    "title": "Fifa World Cup 2026",
+    "category": "ML",
+    "filters": ["ML", "Django", "Python"],
+    "description": "Outil de prédiction des résultats de matchs de la Coupe du Monde 2026, avec un pipeline ML (RandomForest) porté d'un notebook Jupyter vers une application web Django.",
+    "tags": ["Scikit-Learn", "Django", "RandomForest"],
+    "kpis": [
+      { "value": "RF", "label": "modèle .pkl" },
+      { "value": "Web", "label": "app Django" },
+      { "value": "API", "label": "endpoint JSON" }
+    ],
+    "link": "https://github.com/nafy-dieye/Fifa_WorldCup_2026",
+    "caseStudy": "fifa"
+  },
+  {
+    "id": "optimization",
+    "title": "Optimisation Simulation Algo",
+    "category": "Python",
+    "filters": ["Python", "Optimization", "Simulation"],
+    "description": "Projet d’optimisation et de simulation développé pour analyser différents scénarios en milieu montagneux. Il s’appuie sur des modèles mathématiques et des techniques d’optimisation afin d’évaluer les performances, comparer plusieurs solutions et faciliter la prise de décision dans des environnements complexes.",
+    "tags": ["Python", "CSS", "Optimisation", "Simulation"],
+    "kpis": [
+      { "value": "Py", "label": "Python 73.1%" },
+      { "value": "CSS", "label": "26.9%" },
+      { "value": "1", "label": "commit" }
+    ],
+    "link": "https://github.com/nafy-dieye/Optimisation_Similation_Algo",
+    "caseStudy": "optimization"
+  },
+  {
+    "id": "supply",
+    "title": "Sunu Supply",
+    "category": "BI",
+    "filters": ["TypeScript", "React", "BI", "Dashboard"],
+    "description": "Projet de Business Intelligence permettant d’analyser et de visualiser les performances de la chaîne d’approvisionnement. Il centralise les données relatives aux ventes, aux stocks, aux fournisseurs et aux livraisons afin d’aider à optimiser les opérations grâce à des tableaux de bord interactifs.",
+    "tags": ["TypeScript", "React", "Vite", "BI", "Dashboard"],
+    "kpis": [
+      { "value": "TS", "label": "TypeScript 98.8%" },
+      { "value": "UI", "label": "React + Vite" },
+      { "value": "BI", "label": "Supply Chain" }
+    ],
+    "link": "https://github.com/nafy-dieye/Sunu_Supply",
+    "caseStudy": "supply"
+  },
+  {
+    "id": "wash",
+    "title": "WASH Dashboard",
+    "category": "Power BI",
+    "filters": ["Power BI"],
+    "description": "Conception d'un dashboard Power BI pour analyser l'accès à l'eau potable et aux services d'assainissement à l'échelle mondiale.",
+    "tags": ["Power Query", "DAX", "Storytelling"],
+    "kpis": [
+      { "value": "WASH", "label": "indicateurs" },
+      { "value": "DAX", "label": "mesures avancées" },
+      { "value": "1", "label": "dashboard livré" }
+    ],
+    "link": "https://github.com/nafy-dieye"
+  },
+  {
+    "id": "credit",
+    "title": "Analyse des Demandes de Crédit",
+    "category": "Python",
+    "filters": ["Python"],
+    "description": "Étude des facteurs influençant l'acceptation des demandes de crédit à travers une analyse exploratoire et statistique.",
+    "tags": ["Data Cleaning", "Stats", "Reporting"],
+    "kpis": [
+      { "value": "6+", "label": "facteurs étudiés" },
+      { "value": "χ²", "label": "tests statistiques" },
+      { "value": "1", "label": "rapport livré" }
+    ],
+    "link": "https://github.com/nafy-dieye",
+    "caseStudy": "credit"
+  },
+  {
+    "id": "all-repos",
+    "title": "Tous les repositories",
+    "category": "All",
+    "filters": ["All"],
+    "description": "Retrouve l'ensemble de mes projets, notebooks et travaux en cours directement sur mon profil GitHub.",
+    "tags": ["github.com/nafy-dieye"],
+    "link": "https://github.com/nafy-dieye?tab=repositories"
+  }
+]

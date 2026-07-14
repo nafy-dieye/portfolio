@@ -1,0 +1,58 @@
+[
+  {
+    "type": "stage",
+    "typeLabel": "Stage",
+    "date": "Déc. 2025 — Présent",
+    "title": "Stagiaire Data Analyst / Business Analyst",
+    "company": "Auchan Retail Sénégal",
+    "bullets": [
+      "Collecte, nettoyage et analyse de données commerciales",
+      "Création et mise à jour de tableaux de bord Power BI",
+      "Reportings pour le suivi de la performance des magasins"
+    ]
+  },
+  {
+    "type": "certification",
+    "typeLabel": "Certification",
+    "date": "Avril 2024",
+    "title": "CS50P — Introduction to Programming with Python",
+    "company": "Harvard University",
+    "description": "Fondamentaux avancés de Python appliqués à la structuration de scripts et pipelines de données."
+  },
+  {
+    "type": "projet",
+    "typeLabel": "Projet",
+    "date": "2025",
+    "title": "Analyse des ventes Retail avec Power BI",
+    "company": "Projet personnel",
+    "description": "Nettoyage de plus de 10 000 lignes, EDA, construction de KPI et dashboard interactif."
+  },
+  {
+    "type": "stage",
+    "typeLabel": "Stage",
+    "date": "Février 2025 — Juin 2025",
+    "title": "Stagiaire Analyste de données",
+    "company": "Terre-Pure, Dakar",
+    "bullets": [
+      "Nettoyage et préparation de données sous Excel et Power Query",
+      "Tableaux de bord Power BI pour le suivi des performances",
+      "Automatisation de la collecte des données avec VBA"
+    ]
+  },
+  {
+    "type": "formation",
+    "typeLabel": "Formation",
+    "date": "2025 — En cours",
+    "title": "MBA 1 — Data & Intelligence Artificielle",
+    "company": "ISM Dakar École d'Ingénieurs",
+    "description": "Approfondissement Power BI/DAX, modélisation Machine Learning, SQL avancé et Data Engineering."
+  },
+  {
+    "type": "formation",
+    "typeLabel": "Formation",
+    "date": "2022 — 2025",
+    "title": "Licence 3 — Informatique appliquée à la gestion des entreprises",
+    "company": "ISM Dakar École d'Ingénieurs · Mention Bien, Major de promo",
+    "description": "Formation solide en informatique, gestion d’entreprise et analyse de données."
+  }
+]

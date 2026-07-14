@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Eau Potable Dans Le Monde",
+    "kpis": [
+      { "label": "Lignes analysées", "value": "3 000+ / 190 pays" },
+      { "label": "KPI créés", "value": "12 mesures DAX" },
+      { "label": "Précision du modèle", "value": "≈92%" },
+      { "label": "Temps gagné", "value": "~4h / actualisation" },
+      { "label": "Recommandations", "value": "4 axes prioritaires" }
+    ]
+  },
+  {
+    "title": "Le Monde Faim",
+    "kpis": [
+      { "label": "Lignes analysées", "value": "5 000+ (FAO)" },
+      { "label": "KPI créés", "value": "8 indicateurs" },
+      { "label": "Précision du modèle", "value": "N/A — EDA" },
+      { "label": "Temps gagné", "value": "Rapport reproductible" },
+      { "label": "Recommandations", "value": "3 zones prioritaires" }
+    ]
+  },
+  {
+    "title": "Fifa World Cup 2026",
+    "kpis": [
+      { "label": "Lignes analysées", "value": "2 000+ matchs" },
+      { "label": "KPI créés", "value": "6 variables clés" },
+      { "label": "Précision du modèle", "value": "≈78% (RandomForest)" },
+      { "label": "Temps gagné", "value": "Prédiction < 1s" },
+      { "label": "Recommandations", "value": "Pipeline prêt prod" }
+    ]
+  },
+  {
+    "title": "Sunu Supply",
+    "kpis": [
+      { "label": "Technologie", "value": "React + TypeScript" },
+      { "label": "Domaine", "value": "Supply Chain" },
+      { "label": "Interface", "value": "Dashboard interactif" },
+      { "label": "Visualisation", "value": "KPI & Graphiques" },
+      { "label": "Objectif", "value": "Aide à la décision" }
+    ]
+  }
+]
