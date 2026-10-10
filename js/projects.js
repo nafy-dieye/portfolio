@@ -40,7 +40,7 @@ function renderProjectCard(project, index) {
       ];
 
   body.innerHTML = `
-    <div class="proj-top"><span class="proj-icon">${String(index + 1).padStart(2, '0')} · ${category}</span></div>
+    <div class="proj-top"><span class="proj-icon">${String(index + 1).padStart(2, '0')} · ${category}</span>${project.status ? `<span class="proj-status">${project.status}</span>` : ''}</div>
     <h3>${project.title}</h3>
     <p class="desc">${project.description}</p>
     <div class="proj-tags"></div>
@@ -75,6 +75,13 @@ function renderProjectCard(project, index) {
     caseLink.href = `#casestudies`;
     caseLink.dataset.cs = project.caseStudy;
     caseLink.rel = 'noopener';
+    caseLink.addEventListener('click', (event) => {
+      event.preventDefault();
+      const targetTab = Array.from(document.querySelectorAll('[data-cstab]'))
+        .find((tab) => tab.dataset.cstab === project.caseStudy);
+      if (targetTab) targetTab.click();
+      document.getElementById('casestudies')?.scrollIntoView({ behavior: 'smooth' });
+    });
     actions.appendChild(caseLink);
   }
 
