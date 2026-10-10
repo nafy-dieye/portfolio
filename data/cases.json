@@ -111,5 +111,46 @@
     ],
     "visualization": "Analyse comparative permettant d'identifier les solutions les plus adaptées en fonction des contraintes du problème étudié.",
     "conclusion": "Ce projet met en avant des compétences en algorithmique, modélisation, simulation et développement Python appliqués à des problématiques d'optimisation."
+  },
+  {
+    "slug": "edutrack",
+    "title": "EduTrack — Gestion scolaire",
+    "stack": "Projet personnel · Prototype web · Conception métier + Data",
+    "blocks": [
+      {
+        "title": "Le besoin métier",
+        "body": "Les établissements scolaires doivent suivre plusieurs processus liés : inscriptions et réinscriptions, affectations aux classes, paiements, dossiers administratifs et remise des tenues. EduTrack explore une interface centralisée pour rendre ces parcours plus lisibles."
+      },
+      {
+        "title": "Périmètre du prototype",
+        "body": "Le prototype présente des interfaces et des parcours de démonstration pour les élèves, les inscriptions, les paiements et reçus, les dossiers, les alertes et les tenues scolaires. Les actions affichées ne sont pas encore reliées à un système métier en production."
+      },
+      {
+        "title": "Règles métier envisagées",
+        "items": [
+          "Distinguer inscription, réinscription et suivi administratif.",
+          "Calculer le statut final à partir des informations disponibles plutôt que de le saisir manuellement.",
+          "Suivre séparément les dossiers incomplets et les paiements incomplets.",
+          "Permettre de conserver la tenue de sport de l'année précédente lors d'une réinscription, lorsque cela s'applique."
+        ]
+      },
+      {
+        "title": "Approche données",
+        "body": "La prochaine étape consiste à modéliser les entités principales — élèves, classes, inscriptions, paiements, pièces du dossier et remises de tenues — puis à définir leurs relations et contrôles de cohérence. Aucune base de données métier n'est présentée comme opérationnelle dans cette version."
+      },
+      {
+        "title": "Pistes d'analyse Data",
+        "items": [
+          "Suivre les volumes d'inscriptions et de réinscriptions par période et par classe.",
+          "Mesurer les dossiers incomplets et les paiements restant à régulariser.",
+          "Suivre les remises de tenues en attente.",
+          "Créer un tableau de bord à partir de données fictives, puis valider les indicateurs avec les besoins métier."
+        ]
+      },
+      {
+        "title": "Statut et prochaines étapes",
+        "body": "Statut actuel : prototype d'interface avec fonctionnalités simulées. Étapes envisagées : stabiliser les règles métier, créer la base de données, rendre réels les principaux parcours, puis ajouter les indicateurs analytiques. L'OCR des pièces est volontairement réservé à une éventuelle V2."
+      }
+    ]
   }
 ]
