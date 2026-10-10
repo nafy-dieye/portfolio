@@ -70,7 +70,7 @@ function renderProjectCard(project, index) {
     githubLink.rel = 'noopener';
     actions.appendChild(githubLink);
   }
-  if (project.demo) {
+   if (project.demo) {
     const demoLink = createElement(
       'a',
       'btn btn-teal btn-sm',
