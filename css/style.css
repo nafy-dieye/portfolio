@@ -183,6 +183,7 @@ section { padding: 96px 0; border-bottom: 1px solid var(--line); }
 .proj-body { padding: 26px 28px 28px; display: flex; flex-direction: column; gap: 14px; flex: 1; }
 .proj-top { display: flex; justify-content: space-between; align-items: flex-start; }
 .proj-icon { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--paper-dim); }
+.proj-status { display: inline-flex; align-items: center; max-width: 62%; font-family: 'JetBrains Mono', monospace; font-size: 9px; line-height: 1.45; color: var(--amber); border: 1px solid rgba(227, 169, 59, 0.35); padding: 4px 7px; border-radius: 2px; text-align: right; }
 .proj h3 { font-size: 20px; font-weight: 600; }
 .proj p.desc { color: var(--paper-dim); font-size: 13.5px; }
 .proj-tags { display: flex; flex-wrap: wrap; gap: 6px; }
