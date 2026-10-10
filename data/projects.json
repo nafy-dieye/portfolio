@@ -61,7 +61,8 @@
         "label": "prototype"
       }
     ],
-    "caseStudy": "edutrack"
+    "caseStudy": "edutrack",
+    "demo": "https://edutracksn.netlify.app/"
   },
   {
     "id": "faim",
