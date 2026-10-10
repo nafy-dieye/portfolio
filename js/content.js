@@ -70,6 +70,22 @@ function createCasePanel(item, index) {
   if (index === 0) panel.classList.add('active');
   panel.id = `cs-${item.slug}`;
   panel.setAttribute('role', 'tabpanel');
+  const caseContent = Array.isArray(item.blocks)
+    ? `<div class="cs-grid">${item.blocks.map((block, blockIndex) => `
+        <div class="cs-block">
+          <div class="cs-lab"><span class="n">${String(blockIndex + 1).padStart(2, '0')}</span>${block.title}</div>
+          ${block.body ? `<p>${block.body}</p>` : ''}
+          ${Array.isArray(block.items) ? `<ul>${block.items.map((entry) => `<li>${entry}</li>`).join('')}</ul>` : ''}
+        </div>`).join('')}</div>`
+    : `<div class="cs-grid">
+      <div class="cs-block"><div class="cs-lab"><span class="n">01</span>Le problème</div><p>${item.problem}</p></div>
+      <div class="cs-block"><div class="cs-lab"><span class="n">02</span>Les données</div><p>${item.data}</p></div>
+      <div class="cs-block"><div class="cs-lab"><span class="n">03</span>Le nettoyage</div><ul>${item.cleaning.map((entry) => `<li>${entry}</li>`).join('')}</ul></div>
+      <div class="cs-block"><div class="cs-lab"><span class="n">04</span>Les analyses</div><ul>${item.analysis.map((entry) => `<li>${entry}</li>`).join('')}</ul></div>
+      <div class="cs-block"><div class="cs-lab"><span class="n">05</span>Visualisations</div><p>${item.visualization}</p></div>
+      <div class="cs-block"><div class="cs-lab"><span class="n">06</span>Recommandations &amp; conclusion</div><p>${item.conclusion}</p></div>
+    </div>`;
+
   panel.innerHTML = `
     <div class="cs-head">
       <div>
@@ -78,32 +94,7 @@ function createCasePanel(item, index) {
       </div>
       ${item.repo ? `<a class="btn btn-ghost btn-sm" href="${item.repo}" target="_blank" rel="noopener">Voir le repo ↗</a>` : ''}
     </div>
-    <div class="cs-grid">
-      <div class="cs-block">
-        <div class="cs-lab"><span class="n">01</span>Le problème</div>
-        <p>${item.problem}</p>
-      </div>
-      <div class="cs-block">
-        <div class="cs-lab"><span class="n">02</span>Les données</div>
-        <p>${item.data}</p>
-      </div>
-      <div class="cs-block">
-        <div class="cs-lab"><span class="n">03</span>Le nettoyage</div>
-        <ul>${item.cleaning.map((entry) => `<li>${entry}</li>`).join('')}</ul>
-      </div>
-      <div class="cs-block">
-        <div class="cs-lab"><span class="n">04</span>Les analyses</div>
-        <ul>${item.analysis.map((entry) => `<li>${entry}</li>`).join('')}</ul>
-      </div>
-      <div class="cs-block">
-        <div class="cs-lab"><span class="n">05</span>Visualisations</div>
-        <p>${item.visualization}</p>
-      </div>
-      <div class="cs-block">
-        <div class="cs-lab"><span class="n">06</span>Recommandations &amp; conclusion</div>
-        <p>${item.conclusion}</p>
-      </div>
-    </div>
+    ${caseContent}
   `;
   return panel;
 }
