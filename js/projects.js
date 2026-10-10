@@ -70,6 +70,19 @@ function renderProjectCard(project, index) {
     githubLink.rel = 'noopener';
     actions.appendChild(githubLink);
   }
+  if (project.demo) {
+    const demoLink = createElement(
+      'a',
+      'btn btn-teal btn-sm',
+      'Voir le prototype ↗'
+    );
+
+    demoLink.href = project.demo;
+    demoLink.target = '_blank';
+    demoLink.rel = 'noopener noreferrer';
+
+    actions.appendChild(demoLink);
+  }
   if (project.caseStudy) {
     const caseLink = createElement('a', 'btn btn-teal btn-sm', 'Étude de cas');
     caseLink.href = `#casestudies`;
