@@ -15,6 +15,37 @@
     "caseStudy": "eau"
   },
   {
+    "id": "edutrack",
+    "title": "EduTrack — Gestion scolaire",
+    "category": "Prototype web",
+    "filters": [
+      "Développement web",
+    ],
+    "description": "Prototype d'une application de gestion scolaire : parcours d'inscription et de réinscription, suivi des dossiers, paiements/reçus et remise des tenues. Les interfaces et fonctionnalités sont actuellement simulées.",
+    "tags": [
+      "Conception UI",
+      "Analyse métier",
+      "Données",
+      "Développement web"
+    ],
+    "status": "Prototype · fonctionnalités simulées",
+    "kpis": [
+      {
+        "value": "UI",
+        "label": "interfaces conçues"
+      },
+      {
+        "value": "Métier",
+        "label": "règles définies"
+      },
+      {
+        "value": "V1",
+        "label": "prototype"
+      }
+    ],
+    "caseStudy": "edutrack"
+  },
+  {
     "id": "faim",
     "title": "Le Monde Faim",
     "category": "Python",
